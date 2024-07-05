@@ -15,7 +15,7 @@ const Student = () => {
   };
   useEffect(() => {
     axios
-      .get("https://api.jsonbin.io/v3/b/66881a3fe41b4d34e40d87c4")
+      .get("https://api.jsonbin.io/v3/b/66887d41acd3cb34a861f19d")
       .then((API) => {
         update(API.data.record);
       });

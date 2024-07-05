@@ -7,8 +7,7 @@ import { Link } from 'react-router-dom'
 
 const ProdactDiteals = () => {
   const kopaSamsu =useSelector((state)=>state.prity.value)
-  const vatPercentage = 0.15
-  const priceWithVAT = kopaSamsu.price + kopaSamsu.price * vatPercentage
+  
   return (
     <>
        <div className="w-full h-[729px] flex justify-end gap-6 items-center">
