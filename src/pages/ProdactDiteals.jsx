@@ -11,7 +11,7 @@ const ProdactDiteals = () => {
   return (
     <>
       <div className="w-full h-[729px] flex justify-end gap-6 items-center">
-        <div className="w-full ml-5 h-[600px] bg-white rounded-3xl flex items-center">
+        <div className="w-full ml-5 h-[600px] bg-[#d7d5d5] rounded-3xl flex items-center">
           <div className="w-[500px] h-full">
             <img
               src={kopaSamsu.image}
@@ -53,21 +53,21 @@ const ProdactDiteals = () => {
               {" "}
               Price :{" "}
               <span className="text-green-600 text-[30px] font-normal">
-                {kopaSamsu.price}
+                {kopaSamsu.price}$
               </span>{" "}
             </p>
             <p className="text-[#fea621] text-[50px] pl-10 font-medium">
               {" "}
               Price with 15% VAT :{" "}
               <span className="text-green-600 text-[30px] font-normal">
-                {vat.toFixed(2)}
+                {vat.toFixed(2)}$
               </span>{" "}
             </p>
             <p className="text-[#fea621] text-[50px] pl-10 font-medium">
               {" "}
               Total Price :{" "}
               <span className="text-green-600 text-[30px] font-normal">
-                {totalPrice.toFixed(2)}
+                {totalPrice.toFixed(2)}$
               </span>{" "}
             </p>
             <button className='mb-5 p-3 rounded-lg hover:text-[] hover:shadow-2xl hover:bg-transparent hover:border-[2px] active:scale-125 transition-all text-[#fff] bg-[#000]'>
